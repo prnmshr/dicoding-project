@@ -1,0 +1,99 @@
+/* font */
+@font-face {
+    font-family: Poppins;
+    src: url('../../font/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Poppins Med;
+    src: url('../../font/Poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Poppins Thin;
+    src: url('../../font/Poppins/Poppins-Thin.ttf') format('truetype');
+}
+
+/* body */
+body {
+    margin: 0%;
+    
+}
+
+/* style pada main logo */
+header {
+    background-color: #374254;
+    padding-bottom: 10px;
+    position: relative;
+    height: auto;
+}
+
+.main-logo {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #ececec;
+    text-align: center;
+    line-height: 15px;
+}
+
+.thin {
+    font-family: "Poppins Thin", sans-serif;
+}
+
+.main-logo h1 {
+    font-family: "Poppins Med", sans-serif;
+}
+
+.main-logo h3 a {
+    font-family: Poppins, sans-serif;
+    color: #ececec;
+    text-decoration: none;
+}
+
+.main-logo a {
+    font-family: Poppins, sans-serif;
+    color: #ececec;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gainsboro;
+}
+
+.logo-untan {
+    max-width: 15%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* nav */
+nav {
+    background-color: #0e1424;
+    padding: 5px;
+    margin-inline: 20%;
+    margin-block: 20px;
+    border-radius: 15px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+    font-family: Poppins;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ececec;
+}
