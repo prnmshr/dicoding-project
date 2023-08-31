@@ -1,10 +1,11 @@
-// Select the button and collapsible content
+// function untuk Collapse pada konten
+// Pilih button dan konten yang akan di-collapse
 const button = document.querySelector('.collapse-button');
 const content = document.querySelector('.collapse-content');
 
-// Add a click event listener to the button
+// Tambahkan event listener untuk setiap tombol collapse
 button.addEventListener('click', function() {
-    // Toggle the visibility of the content
+    // Visibilitas dari Toggle konten
     if (content.style.display === 'none' || content.style.display === '') {
         content.style.display = 'block';
     } else {
@@ -12,7 +13,9 @@ button.addEventListener('click', function() {
     }
 });
 
-// Ambil semua tombol collapse dan elemen konten
+
+// function untuk Collapse pada aside 
+// Pilih button dan konten yang akan di-collapse
 const collapseButtons = document.querySelectorAll('.collapse-button-hmsi');
 const collapseContents = document.querySelectorAll('.collapse-content-hmsi');
 
