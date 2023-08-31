@@ -1,0 +1,30 @@
+@media (max-width: 500px) {
+    nav {
+        padding: 15px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    nav ul {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-logo {
+        padding: 10px;
+    }
+
+    .logo-untan {
+        max-width: 45%;
+        height: auto;
+    }
+
+    a:hover {
+        color: #adbbc6;
+    }
+
+    
+}
