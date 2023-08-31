@@ -1,4 +1,6 @@
 @media (max-width: 500px) {
+
+    /* style pada nav  */
     nav {
         padding: 15px;
     }
@@ -13,6 +15,12 @@
         padding: 0;
     }
 
+    
+    a:hover {
+        color: #adbbc6;
+    }
+    
+    /* style pada jumbotron  */
     .main-logo {
         padding: 10px;
     }
@@ -22,9 +30,32 @@
         height: auto;
     }
 
-    a:hover {
-        color: #adbbc6;
+    /* style pada main  */
+    main {
+        margin: 0;
     }
 
+    /* style pada konten */
+    .main-content {
+        margin: 0;
+        width: fit-content;
+        display: inline-block;
+    }
+
+    /* style pada article  */
+    .article {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* style pada aside  */
+    .aside-content {
+        width: fit-content;
+    }
     
+    .card-aside {
+        width: fit-content;
+        margin-inline: 30px;
+    }
+
 }
