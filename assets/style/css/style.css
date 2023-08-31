@@ -1,4 +1,4 @@
-/* font */
+/* setup font */
 @font-face {
     font-family: Poppins;
     src: url('../../font/Poppins/Poppins-Regular.ttf') format('truetype');
@@ -28,13 +28,13 @@
     font-family: "Poppins Med", sans-serif;
 }
 
-/* body */
+/*style pada body */
 body {
     margin: 0%;
     position: relative;
 }
 
-/* style pada main logo */
+/* style pada header atau jumbotron*/
 header {
     position: relative;
     background-color: #374254;
@@ -77,7 +77,7 @@ a:hover {
     margin: 0 auto;
 }
 
-/* nav */
+/* style pada navbar */
 nav {
     display: flex;
     justify-content: center;
@@ -110,7 +110,7 @@ nav a {
     color: #e4e4e4;
 }
 
-/* main */
+/* style pada main */
 
 main {
     background-color: #e4e4e4;
@@ -121,21 +121,19 @@ main {
     height: auto;
 }
 
+/* style pada content  */
+
+.main-content {
+    display: flex;
+}
+
 #content {
     padding: 10px;
     background-color: #e4e4e4;
 }
 
-article p {
-    text-align: justify;
-}
-
-button {
-    display: block;
+article {
     font-family: Poppins, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
 }
 
 .article {
@@ -146,14 +144,8 @@ button {
     margin-inline: 10px;
 }
 
-.aside-content {
-    display: inline-block;
-    width: 25%;
-    vertical-align: top;
-    float: left;
-    margin-top: 7px;
-    margin-inline: 10px;
-    background-color: #e4e4e4;
+article p {
+    text-align: justify;
 }
 
 .card-content {
@@ -174,22 +166,38 @@ button {
     font-family: Poppins, sans-serif;
 }
 
-/* footer */
-footer {
-    background-color: #cccccc;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 30px;
-}
+/* style pada collapse  */
 
-footer h5 {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-article {
+button {
+    display: block;
     font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+}
+
+.collapse-content {
+    display: none;
+}
+
+.collapse-content-hmsi {
+    display: none;
+}
+
+.collapse-content-hmsi h3 {
+    padding-inline: 20px;
+}
+
+/* style pada aside  */
+
+.aside-content {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    float: left;
+    margin-top: 7px;
+    margin-inline: 10px;
+    background-color: #e4e4e4;
 }
 
 .profile-pic {
@@ -230,18 +238,16 @@ aside h2 {
     padding: 15px;
 }
 
-.main-content {
-    display: flex;
+/* footer */
+footer {
+    background-color: #cccccc;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
 }
 
-.collapse-content {
-    display: none;
-}
-
-.collapse-content-hmsi {
-    display: none;
-}
-
-.collapse-content-hmsi h3 {
-    padding-inline: 20px;
+footer h5 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
